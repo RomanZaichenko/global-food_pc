@@ -26,3 +26,9 @@
 .burger img {
     @apply w-full;
 }
+
+@media (min-width: 1024px) {
+    .header-logo {
+        @apply max-w-[150px];
+    }
+}

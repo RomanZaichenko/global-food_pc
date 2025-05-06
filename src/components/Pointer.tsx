@@ -49,8 +49,8 @@ export function Pointer({ x, y, country, rotate, onClick }: PointerProps) {
 
   return (
     <>
-      <div className="pointer" style={{width: "30px", height: "30px", position: "absolute", left: `${x}px`, top: `${y}px`, rotate: `${rotate}deg`}} onClick={onClick}>
-        <img src={image} alt="" className="pointer-image"/>
+      <div className="pointer" style={{width: "40px", height: "40px", position: "absolute", left: `${x}%`, top: `${y}%`, rotate: `${rotate}deg`}} onClick={onClick}>
+        <img src={image} alt="" className="pointer-image" style={{width: "100%"}}/>
       </div>
     </>
   )
